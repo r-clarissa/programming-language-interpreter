@@ -7,13 +7,9 @@ This project is an interpreter for programming languages which is programmed and
 ![Screenshot 2023-01-24 163207](https://user-images.githubusercontent.com/70369183/214249587-b2ded0c8-1c3a-4e0e-98a5-42015595f114.png)
 
 ### Specifications
-* Once a file is selected, the contents of the file are loaded into the text editor.
-* The text editor is editable, and edits done are reflected once the code is run.
-* List of Tokens – This is updated every time the Execute/Run button is pressed. This contains all the lexemes detected from the code being ran, and their classification.
-* Symbol Table – This is updated every time the Execute/Run button is pressed. This contains all the variables available in the program being ran, and their updated values.
-* Execute/Run button – This runs the code from the text editor.
-* Console – Input/Output of the program is reflected in the console.
-* When a value is updated, the symbol table is also updated.
+* A selected file is loaded into the text editor where it can be modified.
+* Lexemes and their classification are displayed.
+* Symbol table consisting of all the variables and the values are dynamically updated once execute button is clicked.
 
 ### Built With
 * Python
